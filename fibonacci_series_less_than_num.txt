@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+    int n,fibo=0;
+    cin>>n;
+int first_number=0;
+int second_number=1;
+
+while(fibo<n){
+
+    cout<<fibo<<",";
+    fibo=first_number+second_number;
+    first_number=second_number;
+    second_number=fibo;
+}
+
+
+}
+
