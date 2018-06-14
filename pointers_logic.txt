@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+
+int main(){
+
+int length=10;
+int breadth=5;
+int *length_ptr=&length;
+int *breadth_ptr=&breadth;
+int *test =length_ptr;
+*test=25;
+cout<<length<<endl;
+cout<<breadth<<endl;
+
+test = breadth_ptr;
+*test=20;
+
+cout<<length<<endl;
+cout<<breadth<<endl;
+
+
+}
