@@ -1,0 +1,68 @@
+#include<iostream>
+using namespace std;
+int main(){
+
+cout<<"c"<<endl; /* It will print c the second line will also print c and the third line will show error.*/
+cout<<'c'<<endl;
+
+
+int k;
+cout<<k<<endl; /* It will print garbage value because it is uninitialised  and next will print nothing */
+char t;
+cout<<t<<endl;
+
+int a;
+float b;
+short c;
+long d;
+double e;
+char g;
+int h[10];
+bool i;
+wchar_t j;
+void *n;
+int *u;
+/*
+4
+4
+2
+4
+8
+1
+40
+1
+2
+4
+4 The pointer in char and int either case is showing 4 as value.
+*/
+cout<<sizeof(a)<<endl;
+cout<<sizeof(b)<<endl;
+cout<<sizeof(c)<<endl;
+cout<<sizeof(d)<<endl;
+cout<<sizeof(e)<<endl;
+cout<<sizeof(g)<<endl;
+cout<<sizeof(h)<<endl;
+cout<<sizeof(i)<<endl;
+cout<<sizeof(j)<<endl;
+cout<<sizeof(n)<<endl;
+cout<<sizeof(u)<<endl;
+
+
+cout << "Size of char : " << sizeof(char) << " byte" << endl;
+    cout << "Size of int : " << sizeof(int) << " bytes" << endl;
+    cout << "Size of short int : " << sizeof(short int) << " bytes" << endl;
+    cout << "Size of long int : " << sizeof(long int) << " bytes" << endl;
+    cout << "Size of signed long int : " << sizeof(signed long int) << " bytes" << endl;
+    cout << "Size of unsigned long int : " << sizeof(unsigned long int) << " bytes" << endl;
+    cout << "Size of float : " << sizeof(float) << " bytes" <<endl;
+    cout << "Size of double : " << sizeof(double) << " bytes" << endl;
+    cout << "Size of wchar_t : " << sizeof(wchar_t) << " bytes" <<endl;
+
+
+}
+
+
+
+
+
+

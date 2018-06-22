@@ -1,3 +1,4 @@
+1.
 #include <iostream>
 using namespace std;
 
@@ -85,3 +86,120 @@ int main() {
         }
 	cout<<endl;}
 }
+
+4.
+#include <iostream>
+using namespace std;
+
+
+int main() {
+     int val=1;
+	for(int i=0;i<=9;i++){
+        for(int j=0;j<=i;j++){
+            cout<<" ";}
+        for(int k=0;k<=i;k++){
+                cout<<val;
+                val=val+1;}
+                cout<<endl;
+
+	}
+}
+
+ 1
+  23
+   456
+    78910
+     1112131415
+      161718192021
+       22232425262728
+        2930313233343536
+         373839404142434445
+          46474849505152535455
+
+6.
+#include <iostream>
+using namespace std;
+
+
+int main() {
+     int val=1;
+	for(int i=0;i<=9;i++){
+        for(int j=0;j<=i;j++){
+                cout<<val;
+                val=val+1;}
+                cout<<endl;
+
+	}
+}
+
+1
+23
+456
+78910
+1112131415
+161718192021
+22232425262728
+2930313233343536
+373839404142434445
+46474849505152535455
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+     int n;
+     cin>>n;
+     int val=1;
+	for(int i=0;i<=n;i++){
+        for(int j=1;j<=n-i;j++)
+            {cout<<" ";}
+        for(int k=0;k<=i;k++){
+                cout<<val;
+                val=val+1;}
+    cout<<endl;
+	}
+}
+
+9
+         1
+        23
+       456
+      78910
+     1112131415
+    161718192021
+   22232425262728
+  2930313233343536
+ 373839404142434445
+46474849505152535455
+
+
+10.
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cin>>n;
+    int val=1;
+	for(int i=0;i<=n;i++){
+        for(int j=1;j<=n-i;j++)
+            {cout<<" ";}
+            val=i;
+        for(int k=1;k<=i;k++){
+                cout<<val;
+                val=val+1;}
+    cout<<endl;
+	}
+}
+
+
+       1
+      23
+     345
+    4567
+   56789
+  67891011
+ 78910111213
+89101112131415
+
